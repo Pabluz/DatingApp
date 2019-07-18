@@ -38,6 +38,6 @@ namespace DatingApp.WebApi.Dtos
 
         public string PhotoUrl { get; set; }
 
-        public ICollection<Photo> Photos { get; set; }
+        public ICollection<PhotosForDetailedDto> Photos { get; set; }
     }
 }
